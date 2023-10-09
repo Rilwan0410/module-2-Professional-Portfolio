@@ -86,9 +86,9 @@ a {
 
 .about {
   padding: 0 50px 50px 50px;
-  height: 70vh;
+  height: 65vh;
   display: flex;
-  margin-top: -20px;
+  /* margin-top: -20px; */
 }
 
 .about-me-title {
@@ -116,8 +116,8 @@ a {
   background: linear-gradient(
     to right,
     rgb(36, 35, 35),
-    rgb(10, 119, 155) 30%,
-    var(--lightblue) 70%
+    /* rgb(10, 119, 155) 30%, */
+    var(--lightblue) 
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
