@@ -112,7 +112,8 @@ a {
   font-size: 1.2rem;
   line-height: 1.8rem;
   font-weight: 400;
-  width: 700px;
+  /* width: 700px; */
+  width:52%;
   background: linear-gradient(
     to right,
     rgb(36, 35, 35),
