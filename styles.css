@@ -113,12 +113,11 @@ a {
   line-height: 1.8rem;
   font-weight: 400;
   /* width: 700px; */
-  width:52%;
+  width: 52%;
   background: linear-gradient(
     to right,
     rgb(36, 35, 35),
-    /* rgb(10, 119, 155) 30%, */
-    var(--lightblue) 
+    /* rgb(10, 119, 155) 30%, */ var(--lightblue)
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -151,18 +150,18 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 70px;
-  margin-inline:auto;
+  padding-top: 100px;
+  margin-inline: auto;
   border-bottom: 2.25px solid black;
   /* border-right: 4px solid var(--lightblue);
   border-right: 3px solid black; */
-  display:block;
-  padding-top: 100px;
+  display: block;
 }
 
 .my-work {
   display: flex;
   justify-content: space-around;
-  align-items:center;
+  align-items: center;
   /* gap: 50px; */
 }
 
@@ -178,9 +177,9 @@ a {
   transition: 0.2s ease-in-out;
 }
 
-.main-project:hover{
+.main-project:hover {
   border: 3px solid var(--lightblue);
-  box-shadow:3px 3px 10px gray;
+  box-shadow: 3px 3px 10px gray;
 }
 
 .main-project:hover .overlay-section {
@@ -289,7 +288,7 @@ a {
 
 .other-projects .other-project:hover {
   border: 3px solid var(--lightblue);
-  box-shadow:3px 3px 10px gray;
+  box-shadow: 3px 3px 10px gray;
 }
 
 .other-projects .other-project img {
@@ -361,7 +360,11 @@ a {
   margin-bottom: 20px;
   /* color:var(--lightblue); */
   /* color: white; */
-  background: linear-gradient(to right, var(--lightblue), rgb(243, 239, 239)50%);
+  background: linear-gradient(
+    to right,
+    var(--lightblue),
+    rgb(243, 239, 239) 50%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -398,4 +401,57 @@ a {
 
 .contact .contact-links i:hover {
   transform: scale(1.3);
+}
+
+@media (width < 1200px) {
+  .my-work {
+    flex-direction: column;
+    max-height: 130vh;
+  }
+
+  .work-title {
+    margin-bottom: 50px;
+    padding-top: 80px;
+  }
+
+  .main-project {
+    width: 90%;
+    height: 500px;
+    margin-bottom: 30px;
+  }
+
+  .main-project .overlay-section h2 {
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom:0px;
+  }
+
+  .main-project .overlay-section p {
+    font-size: 1rem;
+  }
+
+  .main-project .overlay-section p a {
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+
+  .main-project .overlay-section p span {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 300;
+  }
+
+  .other-projects {
+    width: 90%;
+  }
+
+  .other-projects .other-project {
+    width: 100%;
+    height: 150px;
+  }
+
+
+  .contact{
+    padding:50px 80px;
+  }
 }
