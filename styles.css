@@ -423,7 +423,7 @@ a {
   .main-project .overlay-section h2 {
     color: white;
     font-size: 1.8rem;
-    margin-bottom:0px;
+    margin-bottom: 0px;
   }
 
   .main-project .overlay-section p {
@@ -450,8 +450,39 @@ a {
     height: 150px;
   }
 
+  .contact {
+    padding: 50px 80px;
+  }
+}
 
-  .contact{
-    padding:50px 80px;
+@media (width < 840px) {
+  .about-me-title {
+    font-size: 4rem;
+    padding-right: 0px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-me-paragraph {
+    font-size: 1.05rem;
+    line-height: 1.8rem;
+  }
+
+  .work-title {
+    font-size: 5rem;
+    font-weight: 400;
+    width: fit-content;
+    background: linear-gradient(to right, var(--lightblue), rgb(36, 35, 35));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 70px;
+    padding-top: 100px;
+    margin-inline: auto;
+    border-bottom: 2.25px solid black;
+    /* border-right: 4px solid var(--lightblue);
+    border-right: 3px solid black; */
+    display: block;
   }
 }
