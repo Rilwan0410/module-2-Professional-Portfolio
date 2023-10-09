@@ -483,26 +483,51 @@ a {
 
   .about-me {
     flex-direction: column;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
   }
 
   .about-me-title {
-    font-size:5rem;
+    font-size: 5rem;
     border: none;
     padding-right: 0;
     height: 100px;
     margin-top: 100px;
     display: flex;
-    border-bottom:1.5px solid black;
+    border-bottom: 1.5px solid black;
     align-items: center;
-    margin-bottom:20px;
+    margin-bottom: 20px;
   }
 
   .about-me-paragraph {
     font-size: 1.1rem;
     line-height: 1.8rem;
     width: 100%;
+  }
+
+  .contact {
+    padding: 50px 30px;
+  }
+
+  .contact .contact-info h2 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+
+  .contact .contact-info p,
+  .contact .contact-info p span {
+    font-size: 1rem;
+  }
+
+  .contact .contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-left: 0px;
+    font-size: 2.5rem;
+    gap: 40px;
   }
 }
