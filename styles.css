@@ -133,7 +133,6 @@ a {
 }
 
 .work {
-  /* display: flex; */
   padding: 20px 30px 30px 0px;
   height: 180vh;
   background: rgb(249, 240, 240);
@@ -151,7 +150,7 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: block;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
   border-bottom: 2.25px solid black;
   /* border-right: 4px solid var(--lightblue);
   border-right: 3px solid black; */
@@ -163,7 +162,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 50px;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 
 .main-project {
