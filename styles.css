@@ -472,17 +472,37 @@ a {
 
   .work-title {
     font-size: 5rem;
-    font-weight: 400;
-    width: fit-content;
-    background: linear-gradient(to right, var(--lightblue), rgb(36, 35, 35));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 70px;
-    padding-top: 100px;
-    margin-inline: auto;
-    border-bottom: 2.25px solid black;
-    /* border-right: 4px solid var(--lightblue);
-    border-right: 3px solid black; */
-    display: block;
+  }
+}
+
+@media (width < 720px) {
+  .about {
+    flex-direction: column;
+    /* padding-top:20px; */
+  }
+
+  .about-me {
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap: 20px;
+  }
+
+  .about-me-title {
+    font-size:5rem;
+    border: none;
+    padding-right: 0;
+    height: 100px;
+    margin-top: 100px;
+    display: flex;
+    border-bottom:1.5px solid black;
+    align-items: center;
+    margin-bottom:20px;
+  }
+
+  .about-me-paragraph {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    width: 100%;
   }
 }
