@@ -134,11 +134,11 @@ a {
 
 .work {
   padding: 20px 30px 30px 0px;
-  height: 180vh;
+  height: 200vh;
   background: rgb(249, 240, 240);
   margin-top: 100px;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   align-items: center;
 }
 
@@ -149,30 +149,37 @@ a {
   background: linear-gradient(to right, var(--lightblue), rgb(36, 35, 35));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  display: block;
   margin-bottom: 70px;
+  margin-inline:auto;
   border-bottom: 2.25px solid black;
   /* border-right: 4px solid var(--lightblue);
   border-right: 3px solid black; */
+  display:block;
   padding-top: 100px;
 }
 
 .my-work {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  /* margin-top: 60px; */
+  justify-content: space-around;
+  align-items:center;
+  /* gap: 50px; */
 }
 
 .main-project {
-  height: 740px;
+  height: 810px;
   width: 650px;
   overflow: hidden;
   border-radius: 2px;
   position: relative;
   z-index: 1;
-  border: 1px solid var(--lightblue);
+  /* border: 1px solid var(--lightblue); */
+  box-shadow:3px 3px 10px gray;
+  border: 3px solid transparent;
+  transition: 0.2s ease-in-out;
+}
+
+.main-project:hover{
+  border: 3px solid var(--lightblue);
 }
 
 .main-project:hover .overlay-section {
@@ -270,12 +277,13 @@ a {
 .other-projects .other-project {
   width: 630px;
   height: 180px;
-  background: red;
   flex-direction: column;
   border-radius: 5px;
   /* border: 1px solid var(--lightblue); */
   position: relative;
   overflow: hidden;
+  box-shadow:3px 3px 10px gray;
+  border: 3px solid transparent;
   transition: 0.25s ease-in-out;
 }
 
