@@ -359,7 +359,10 @@ a {
   font-weight: 300;
   margin-bottom: 20px;
   /* color:var(--lightblue); */
-  color: white;
+  /* color: white; */
+  background: linear-gradient(to right, var(--lightblue), rgb(243, 239, 239)50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .contact .contact-info p {
