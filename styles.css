@@ -343,7 +343,8 @@ a {
   flex-direction: column;
   justify-content:center;
   gap:20px;
-  border-right: 2px solid var(--lightblue);
+  border-right: 2px solid white;
+  /* border-right: 2px solid var(--lightblue); */
   width:50%;
   height:100%;
 }
