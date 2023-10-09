@@ -134,7 +134,7 @@ a {
 
 .work {
   padding: 20px 30px 30px 0px;
-  height: 200vh;
+  height: 180vh;
   background: rgb(249, 240, 240);
   margin-top: 100px;
   /* display: flex; */
@@ -173,13 +173,13 @@ a {
   position: relative;
   z-index: 1;
   /* border: 1px solid var(--lightblue); */
-  box-shadow:3px 3px 10px gray;
   border: 3px solid transparent;
   transition: 0.2s ease-in-out;
 }
 
 .main-project:hover{
   border: 3px solid var(--lightblue);
+  box-shadow:3px 3px 10px gray;
 }
 
 .main-project:hover .overlay-section {
@@ -282,13 +282,13 @@ a {
   /* border: 1px solid var(--lightblue); */
   position: relative;
   overflow: hidden;
-  box-shadow:3px 3px 10px gray;
   border: 3px solid transparent;
   transition: 0.25s ease-in-out;
 }
 
 .other-projects .other-project:hover {
   border: 3px solid var(--lightblue);
+  box-shadow:3px 3px 10px gray;
 }
 
 .other-projects .other-project img {
