@@ -411,6 +411,10 @@ a {
 }
 
 @media (width < 1200px) {
+  .work {
+    padding: 20px;
+  }
+
   .my-work {
     flex-direction: column;
     max-height: 130vh;
@@ -630,4 +634,107 @@ a {
   }
 }
 
-@media(width < 490px){}
+@media (width < 490px) {
+  .about-me-title {
+    font-size: 3rem;
+  }
+
+  .main-project:hover .overlay-section .overlay-section-container {
+    border: none;
+  }
+
+  .overlay-section-container {
+    padding-left: 0;
+    border: none;
+  }
+
+  .main-project .overlay-section {
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact .contact-info {
+    border: none;
+  }
+
+  .contact .contact-links {
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px
+  }
+}
+
+@media (width < 401px) {
+  .about-me-title {
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
+  .about-me-paragraph {
+    font-size: 0.9rem;
+  }
+
+  .main-project .overlay-section p {
+    font-size: 0.6rem;
+  }
+
+  .main-project .overlay-section p span {
+    font-size: 0.6rem;
+  }
+
+  .main-project .overlay-section p a {
+    font-size: 0.6rem;
+  }
+
+  .work-title {
+    font-size: 2.5rem;
+  }
+
+  .other-projects .other-project .overlay .other-project-title {
+    font-size: 1.1rem;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact .contact-info {
+    border: none;
+  }
+
+  .contact .contact-links {
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media(width < 376px){
+
+  .main-project .overlay-section {
+  }
+
+
+
+  .main-project .overlay-section h2 {
+    font-size:0.7rem;
+    /* margin:0; */
+  }
+
+  .main-project .overlay-section p {
+    font-size: 0.5rem;
+    line-height:13px;
+  }
+
+  .main-project .overlay-section p span {
+    font-size: 0.5rem;
+  }
+
+  .main-project .overlay-section p a {
+    font-size: 0.5rem;
+  }
+}
