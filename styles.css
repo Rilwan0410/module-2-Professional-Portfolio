@@ -437,6 +437,10 @@ a {
     margin-bottom: 0px;
   }
 
+  .main-project img {
+    object-fit: cover;
+  }
+
   .main-project .overlay-section p {
     font-size: 1rem;
   }
@@ -665,7 +669,7 @@ a {
     font-size: 2rem;
     align-items: center;
     justify-content: center;
-    margin-top:20px
+    margin-top: 20px;
   }
 }
 
@@ -713,21 +717,18 @@ a {
   }
 }
 
-@media(width < 376px){
-
+@media (width < 376px) {
   .main-project .overlay-section {
   }
 
-
-
   .main-project .overlay-section h2 {
-    font-size:0.7rem;
+    font-size: 0.7rem;
     /* margin:0; */
   }
 
   .main-project .overlay-section p {
     font-size: 0.5rem;
-    line-height:13px;
+    line-height: 13px;
   }
 
   .main-project .overlay-section p span {
