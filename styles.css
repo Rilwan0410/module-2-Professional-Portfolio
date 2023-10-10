@@ -562,10 +562,72 @@ a {
 
   header nav ul.show {
     transform: translateX(0);
+  }
 
+  .about-me-title {
+    font-size: 4rem;
+  }
+
+  .about-me-paragraph {
+    font-size: 1rem;
+  }
+
+  .work-title {
+    font-size: 4rem;
   }
 
   .show i {
     display: block;
   }
+
+  .overlay-section-container {
+    padding-left: 10px;
+
+    gap: 0;
+  }
+
+  .main-project .overlay-section h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .main-project .overlay-section p {
+    font-size: 0.8rem;
+  }
+
+  .main-project .overlay-section p a {
+    font-size: 0.7rem;
+  }
+
+  .main-project .overlay-section p span {
+    font-size: 0.7rem;
+  }
+
+  .other-projects .other-project .overlay .other-project-title {
+    font-size: 1.4rem;
+  }
+
+  .contact .contact-info {
+    gap: 10px;
+    border-right: 1px solid white;
+  }
+
+  .contact .contact-info h2 {
+    font-size: 2.5rem;
+  }
+
+  .contact .contact-info p {
+    font-size: 0.9rem;
+  }
+
+  .contact .contact-info p span {
+    font-size: 0.9rem;
+  }
+
+  .contact .contact-links {
+    font-size: 2rem;
+    gap: 30px;
+  }
 }
+
+@media(width < 490px){}
