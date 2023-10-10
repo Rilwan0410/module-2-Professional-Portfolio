@@ -43,6 +43,13 @@ header .logo {
   -webkit-text-fill-color: transparent;
 }
 
+.show i {
+  font-size: 1.3rem;
+  display: none;
+  cursor: pointer;
+  /* color:var(--lightblue) */
+}
+
 header nav ul {
   display: flex;
   list-style: none;
@@ -415,7 +422,7 @@ a {
   }
 
   .main-project {
-    width: 90%;
+    width: 80%;
     height: 500px;
     margin-bottom: 30px;
   }
@@ -442,7 +449,7 @@ a {
   }
 
   .other-projects {
-    width: 90%;
+    width: 80%;
   }
 
   .other-projects .other-project {
@@ -506,6 +513,10 @@ a {
     width: 100%;
   }
 
+  .overlay-section-container {
+    gap: 15px;
+  }
+
   .contact {
     padding: 50px 30px;
   }
@@ -529,5 +540,32 @@ a {
     padding-left: 0px;
     font-size: 2.5rem;
     gap: 40px;
+  }
+}
+
+@media (width < 515px) {
+  header {
+    padding-bottom: 21px;
+  }
+
+  header nav ul {
+    background: black;
+    position: absolute;
+    right: 0;
+    flex-direction: column;
+    top: 0;
+    padding: 50px 40px;
+    font-size: 1.2rem;
+    transform: translateX(100%);
+    transition: 0.3s ease-in-out;
+  }
+
+  header nav ul.show {
+    transform: translateX(0);
+
+  }
+
+  .show i {
+    display: block;
   }
 }
