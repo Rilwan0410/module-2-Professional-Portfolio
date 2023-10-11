@@ -156,7 +156,7 @@ a {
   background: linear-gradient(to right, var(--lightblue), rgb(36, 35, 35));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 70px;
+  margin-bottom:150px;
   padding-top: 100px;
   margin-inline: auto;
   border-bottom: 2.25px solid black;
